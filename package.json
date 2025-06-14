@@ -13,6 +13,7 @@
   "devDependencies": {
     "@types/cors": "^2.8.19",
     "@types/express": "^4.17.23",
+    "@types/jsonwebtoken": "^9.0.9",
     "@types/node": "^24.0.1",
     "prisma": "^6.9.0",
     "tsc-watch": "^7.1.1",
@@ -23,7 +24,9 @@
     "@apollo/server": "^4.12.2",
     "@prisma/client": "^6.9.0",
     "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
     "express": "^4.21.2",
-    "graphql": "^16.11.0"
+    "graphql": "^16.11.0",
+    "jsonwebtoken": "^9.0.2"
   }
 }
