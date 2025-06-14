@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  postgres:
+    container_name: learn_graphql_postgres_containter
+    image: postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - learn_graphql_postgres_volume:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: learn_graphql_postgres_user
+      POSTGRES_DB: learn_graphql_postgres_db
+      POSTGRES_PASSWORD: learn_graphql_postgres_password
+
+
+volumes:
+  learn_graphql_postgres_volume:
+  
